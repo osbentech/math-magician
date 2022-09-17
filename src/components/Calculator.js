@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
-// eslint-disable-next-line react/prefer-stateless-function
 function Calculator() {
   const initialData = {};
   const [calculatorData, calcMethod] = useState(initialData);
