@@ -30,9 +30,11 @@ body {
 }
 
 .caclContainer {
-  margin-top: 10%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
 }
 
 .theCalculator {
