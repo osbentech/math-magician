@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
+import Header from '../header';
+import '../header.css';
+import '../App.css';
 
 function Calculator() {
   const initialData = {};
@@ -11,6 +14,8 @@ function Calculator() {
   const { next, total } = calculatorData;
   return (
     <div className="caclContainer">
+      <Header />
+      <h2>Hello, my name is Ben, let us to some maths..</h2>
       <div className="theCalculator">
         <input className="editable" value={next || total || 0} />
         <div className="inputValues">
