@@ -1,7 +1,7 @@
 const operate = require('../logic/operate').default;
 
 describe('Test-suite for Calculte file', () => {
-  test('given 1- 10 and return 4', () => {
+  test('given 1- 10 and return -9', () => {
     expect(operate(1, 10, '-')).toEqual('-9');
   });
   test('given 3 x 10 and return 30', () => {

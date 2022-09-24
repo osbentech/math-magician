@@ -1,0 +1,18 @@
+div {
+  line-height: 60px;
+  border-radius: 40px;
+}
+
+div h2 {
+  text-align: center;
+  font-weight: bolder;
+  color: purple;
+}
+
+div p {
+  margin: 100px;
+  border-left: 10px palevioletred solid;
+  border-right: 10px pink solid;
+  border-radius: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
