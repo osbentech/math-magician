@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Tests for Quote component Render Quote page 1`] = `
+exports[`Tests for Home Component Renders Home page 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -36,21 +36,11 @@ Object {
         </header>
         <main>
           <h2>
-            Hey|| BEN here|| officially welcoming you to my page
+            Welcome to my homepage!
           </h2>
-          <ul
-            class="qNames"
-          >
-            <li>
-              extraodinary is where brain meets magic (Benjamin Osegbo)
-            </li>
-            <li>
-              It is better to fail in originality than to succeed in imitation.
-            </li>
-            <li>
-              The road to success and the road to failure are almost exactly the same
-            </li>
-          </ul>
+          <p>
+            est vitae ex. Duis nisi lacus, facilisis in varius ac, pulvinar nec libero. Pellentesque feugiat elementum bibendum. Ut convallis libero sit amet tortor egestas, nec laoreet eros ullamcorper. Nullam laoreet semper rutrum. Mauris leo enim, vestibulum ut lacus sed, blandit imperdiet nibh. Donec eget velit nec ipsum auctor egestas. Nullam eget lacinia sapien. Vivamus faucibus ut nibh vel tristique. Aliquam rutrum eros a augue malesuada, a egestas tortor rhoncus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim, dolor id sagittis tincidunt, mauris mauris consequat leo, et commodo purus est vitae ex. Duis nisi lacus, facilisis in varius ac, pulvinar nec libero. Pellentesque feugiat elementum bibendum. Ut convallis libero sit amet tortor egestas, nec laoreet eros ullamcorper. Nullam laoreet semper rutrum. Mauris leo enim, vestibulum ut lacus sed, blandit imperdiet nibh. Donec eget velit nec ipsum auctor egestas. Nullam eget lacinia sapien. Vivamus fauc
+          </p>
         </main>
       </div>
     </div>
@@ -87,21 +77,11 @@ Object {
       </header>
       <main>
         <h2>
-          Hey|| BEN here|| officially welcoming you to my page
+          Welcome to my homepage!
         </h2>
-        <ul
-          class="qNames"
-        >
-          <li>
-            extraodinary is where brain meets magic (Benjamin Osegbo)
-          </li>
-          <li>
-            It is better to fail in originality than to succeed in imitation.
-          </li>
-          <li>
-            The road to success and the road to failure are almost exactly the same
-          </li>
-        </ul>
+        <p>
+          est vitae ex. Duis nisi lacus, facilisis in varius ac, pulvinar nec libero. Pellentesque feugiat elementum bibendum. Ut convallis libero sit amet tortor egestas, nec laoreet eros ullamcorper. Nullam laoreet semper rutrum. Mauris leo enim, vestibulum ut lacus sed, blandit imperdiet nibh. Donec eget velit nec ipsum auctor egestas. Nullam eget lacinia sapien. Vivamus faucibus ut nibh vel tristique. Aliquam rutrum eros a augue malesuada, a egestas tortor rhoncus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim, dolor id sagittis tincidunt, mauris mauris consequat leo, et commodo purus est vitae ex. Duis nisi lacus, facilisis in varius ac, pulvinar nec libero. Pellentesque feugiat elementum bibendum. Ut convallis libero sit amet tortor egestas, nec laoreet eros ullamcorper. Nullam laoreet semper rutrum. Mauris leo enim, vestibulum ut lacus sed, blandit imperdiet nibh. Donec eget velit nec ipsum auctor egestas. Nullam eget lacinia sapien. Vivamus fauc
+        </p>
       </main>
     </div>
   </div>,

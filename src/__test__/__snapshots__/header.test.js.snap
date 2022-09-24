@@ -1,61 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Tests for Quote component Render Quote page 1`] = `
+exports[`Test the header component Renders header component correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    <div>
-      <div>
-        <header>
-          <h1>
-            A Benjamin think...
-          </h1>
-          <ul>
-            <a
-              href="/"
-            >
-              Home
-            </a>
-            <span>
-               | 
-            </span>
-            <a
-              href="/Calculator"
-            >
-              Calculator
-            </a>
-            <span>
-               | 
-            </span>
-            <a
-              href="/Quote"
-            >
-              Quotes
-            </a>
-          </ul>
-        </header>
-        <main>
-          <h2>
-            Hey|| BEN here|| officially welcoming you to my page
-          </h2>
-          <ul
-            class="qNames"
-          >
-            <li>
-              extraodinary is where brain meets magic (Benjamin Osegbo)
-            </li>
-            <li>
-              It is better to fail in originality than to succeed in imitation.
-            </li>
-            <li>
-              The road to success and the road to failure are almost exactly the same
-            </li>
-          </ul>
-        </main>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
     <div>
       <header>
         <h1>
@@ -85,25 +33,37 @@ Object {
           </a>
         </ul>
       </header>
-      <main>
-        <h2>
-          Hey|| BEN here|| officially welcoming you to my page
-        </h2>
-        <ul
-          class="qNames"
-        >
-          <li>
-            extraodinary is where brain meets magic (Benjamin Osegbo)
-          </li>
-          <li>
-            It is better to fail in originality than to succeed in imitation.
-          </li>
-          <li>
-            The road to success and the road to failure are almost exactly the same
-          </li>
-        </ul>
-      </main>
     </div>
+  </body>,
+  "container": <div>
+    <header>
+      <h1>
+        A Benjamin think...
+      </h1>
+      <ul>
+        <a
+          href="/"
+        >
+          Home
+        </a>
+        <span>
+           | 
+        </span>
+        <a
+          href="/Calculator"
+        >
+          Calculator
+        </a>
+        <span>
+           | 
+        </span>
+        <a
+          href="/Quote"
+        >
+          Quotes
+        </a>
+      </ul>
+    </header>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
