@@ -8,7 +8,7 @@ describe('Tests for Home Component', () => {
     expect(home).toMatchSnapshot();
   });
 
-  it("Test if the welcome header exists", () => {
+  it('Test if the welcome header exists', () => {
     render(<Home />);
     expect(
       screen.getByText(
@@ -16,6 +16,4 @@ describe('Tests for Home Component', () => {
       ),
     ).toBeInTheDocument();
   });
-
-
-})
+});

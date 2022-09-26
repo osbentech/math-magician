@@ -8,7 +8,7 @@ describe('Tests for Quote component', () => {
     expect(quote).toMatchSnapshot();
   });
 
-  it("Test if the quote by Benjamin Osegbo exists", () => {
+  it('Test if the quote by Benjamin Osegbo exists', () => {
     render(<Quote />);
     expect(
       screen.getByText(

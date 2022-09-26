@@ -8,7 +8,6 @@ function Calculator() {
   const initialData = {};
   const [calculatorData, calcMethod] = useState(initialData);
   const clickHandler = (e) => {
-  
     calcMethod((calculatorData) => calculate(calculatorData, e.target.innerText));
   };
   const { next, total } = calculatorData;

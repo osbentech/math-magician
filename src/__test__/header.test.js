@@ -1,4 +1,4 @@
-const { render, screen } = require('@testing-library/react');
+const { render } = require('@testing-library/react');
 require('@testing-library/jest-dom');
 const { BrowserRouter: Router } = require('react-router-dom');
 const Header = require('../header').default;
@@ -12,5 +12,4 @@ describe('Test the header component', () => {
     );
     expect(header).toMatchSnapshot();
   });
-
 });

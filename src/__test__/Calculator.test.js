@@ -1,4 +1,4 @@
-const { render, screen, fireEvent } = require('@testing-library/react');
+const { render } = require('@testing-library/react');
 require('@testing-library/jest-dom');
 const Calculator = require('../components/Calculator').default;
 
@@ -7,5 +7,4 @@ describe('Tests for Calculator component', () => {
     const calculator = render(<Calculator />);
     expect(calculator).toMatchSnapshot();
   });
-
 });
