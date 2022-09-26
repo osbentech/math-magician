@@ -8,7 +8,7 @@ function Calculator() {
   const initialData = {};
   const [calculatorData, calcMethod] = useState(initialData);
   const clickHandler = (e) => {
-    console.log(e.target.innerText);
+  
     calcMethod((calculatorData) => calculate(calculatorData, e.target.innerText));
   };
   const { next, total } = calculatorData;
@@ -18,7 +18,7 @@ function Calculator() {
       <div className="caclContainer">
         <h2>Hello, my name is Ben, let us do some maths..</h2>
         <div className="theCalculator">
-          <input className="editable" value={next || total || 0} />
+          <input id="scr" className="editable" value={next || total || 0} />
           <div className="inputValues">
             <div className="row1">
               <button type="button" onClick={clickHandler} className="AC"> AC</button>
